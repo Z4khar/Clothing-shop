@@ -1,0 +1,80 @@
+.catalog_sales {
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 200px;
+    padding:20px;
+    justify-items: center;
+
+
+
+
+}
+
+
+.catalog_sales div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #E5E8F1;
+    height: 381px;
+    width: 242px;
+    border-radius: 82px;
+    gap: 5px;
+}
+
+.catalog_sales-1, .catalog_sales-2, .catalog_sales-3, .catalog_sales-4, .catalog_sales-5, .catalog_sales-6, .catalog_sales-7, .catalog_sales-8{
+    height: 388px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -130px;
+
+
+}
+.catalog_sales p{
+    font-size: 18px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: 700;
+
+}
+.but {
+    position: absolute;
+    height: 50px;
+    transform: translateY(50px);
+
+}
+.m1 {
+    display: flex;
+    justify-content: center;
+    height: 192px;
+
+}
+
+.m1 p{
+    font-size: 48px;
+    font-family: "Syne", "Lucida Sans Unicode";
+
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(100px);
+}
+
+
+.btn-catalog {
+    margin-top: 76px;
+    margin-left: 100px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 24px ;
+    color: #FFFFFF;
+    background-color: #375FED;
+    height: 80px;
+    width: 242px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}

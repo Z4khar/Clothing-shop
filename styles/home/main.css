@@ -1,0 +1,242 @@
+main {
+    margin: 0px;
+    height: 0px;
+    /*border: 2px solid red; */
+    min-height: 3350px;
+
+}
+
+.market {
+    height: 1588px;
+    background-color: #ffffff;
+    
+}
+
+.bestsellers {
+    background-color: #E5E8F1;
+    height: 664px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#z1 {
+    font-size: 25px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    transform: translateY(-60px);
+}
+
+#z2 {
+    font-size: 72px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    transform: translateY(-110px);
+}
+
+#text-bestseller {
+    font-size: 18px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: normal;
+    transform: translateY(-130px);
+}
+
+.navigator-bestseller {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    transform: translateY(50px);
+}
+.left-navigator {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+
+}
+
+
+.right-navigator {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #375FED;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.marker {
+    transform: translateX(80px) translateY(-30px);
+    font-size: 36px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bold;
+
+}
+
+
+.bestsellers-img {
+    height: 650px;
+    transform: translateY(10px);
+}
+
+
+/*-----------------------------------------------------------*/
+.exclusive {
+    display: flex;
+    margin-top: 120px;
+    height: 922px;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+
+}
+
+.exclusive1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-exclusive {
+    position: relative;
+}
+
+
+.exclusive-man-img {
+    height: 100%;
+
+}
+
+.info-exclusive {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#za1 {
+    transform: translateY(-16px);
+    font-size: 64px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    margin: 0px;
+}
+
+#za2 {
+    font-size: 64px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    transform: translateY(-110px);
+    margin-left: 250px;
+    max-height: 0px;
+    margin-bottom: 0px;
+}
+#za34 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    transform: translateY(-60px);
+
+}
+#za3 {
+    font-size: 18px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    margin:0;
+    transform: translateY(130px);
+}
+
+#za4 {
+    font-size: 144px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    margin:0;
+    transform: translateY(90px);
+}
+
+.exclusive3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(190px);
+
+}
+
+.navigator-exclusive {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+
+}
+.marker-excl {
+    font-size: 36px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bold;
+}
+
+.left-navigator-excl {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #F6F6F8;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.right-navigator-excl {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #375FED;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.exclusive2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0;
+
+}
+
+.btn-exclusive {
+    position: absolute;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 24px ;
+    color: #FFFFFF;
+    background-color: #375FED;
+    height: 80px;
+    width: 242px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transform: rotate(-35deg) translate(100px, 100px);
+
+}
+
+
+.tshirt-img {
+    width: 749px;
+    height: 327px;
+}
+
+
+
+

@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.main-container-right {
+    display: flex;
+    flex: 1;
+    width: 50%;
+    background-color: #E5E8F1;
+    position: sticky;
+    top: 0;
+
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.main-container-left {
+    display: flex;
+
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    margin: 0px
+
+}
+.left-label {
+    display: flex;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    font-size: 20px ;
+    margin: 0px;
+}
+
+.cart-container {
+    width: 480px;
+    height: 565px;
+    background-color: #E5E8F1;
+    border-radius: 30px;
+    display: flex;
+}
+.map {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contact-label {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 24px ;
+    margin-left: 5% ;
+}
+.contact-label ul{
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 14px ;
+    color: #000000;
+}
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5%;
+    gap: 5%;
+}
+.contact-form input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 16px ;
+}
+
+.contact-form2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.contact-form2 textarea {
+     margin-top: 3%;
+     display: flex;
+     width: 100%;
+     height: 160px;
+     border-radius: 15px;
+     font-family: "Syne", "Lucida Sans Unicode";
+     font-size: 16px ;
+     border: none;
+     resize: none;
+ }
+.btn-contact {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.btn-contact button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    background-color: #375FED;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+.s1 {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 18px ;
+    margin-bottom: 0px;
+
+}
+.s2 {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 14px ;
+}
+
+.email {
+    margin-top: 10%;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+.placeholder::placeholder {
+    text-indent: 10px;
+    line-height: 2;
+}

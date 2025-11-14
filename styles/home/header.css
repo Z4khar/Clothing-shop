@@ -1,0 +1,176 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#header {
+    margin: 0;
+    padding: 0;
+    background-color: #18191C;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+}
+@font-face {
+    font-family: "Drunk";
+    src: url('../../media/fonts/DrukWideBoldTrial.otf') format('opentype');
+}
+.logo {
+    font-size: 18px;
+    font-family: "Drunk";
+    line-height: min(0px);
+    color: white;
+}
+.header_search {
+
+    background-color: #343434;
+    border: none;
+    width: 115px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+.menu {
+    margin-left: 180px;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+.menu a{
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #c4c4c4;
+    
+    font-weight: bold;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+
+.user input {
+    border: none;
+   
+   
+
+}
+.user button {
+
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: none; /* убираем стандартные границы кнопки */
+    cursor: pointer; /* меняем курсор на "руку" при наведении */
+}
+
+.btn-basket {
+    background-image: url("../../media/images/icons/basket.png")
+}
+
+.btn-like {
+
+    position: relative;
+    background-image: url("../../media/images/icons/heart.png");
+    background-size: 30% !important;
+}
+
+.btn-profile {
+    background-image: url("../../media/images/icons/profile.svg");
+    background-size: 35% !important;
+}
+
+.no-circle {
+    background-color: transparent !important;
+    border-radius: 0;
+}
+
+
+a:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+
+.shapka {
+
+    height: 550px;
+    width: 100%;
+    background-color: #E5E8F1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+
+
+
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+
+}
+.shapka-man {
+
+    margin-top: 118px;
+    background-color: #ffffff;
+    height: 394px;
+    width: 394px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shapka-woman {
+    margin-top: 118px;
+    background-color: #ffffff;
+    height: 394px;
+    width: 394px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shapka-img-man {
+    height: 190%;
+    transform: translate(30px, -95px);
+}
+
+.shapka-img-woman {
+
+    height: 180%;
+    transform: translate(40px, -95px);
+}
+
+
+
+.text-shapka-man {
+    font-family: "Drunk";
+    font-weight: normal;
+    font-size: 72px;
+    color: #0650D1;
+    transform: translate(35px, -620px);
+
+}
+
+.text-shapka-woman {
+    font-family: "Drunk";
+    font-weight: normal;
+    font-size: 72px;
+    color: #0650D1;
+    transform: translate(35px, -580px);
+
+}

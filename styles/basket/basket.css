@@ -1,0 +1,280 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+.main-container-right {
+    flex: 1;
+    background-color: #E5E8F1;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+}
+
+
+
+.basket-items {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E9E9E9;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 35px;
+    align-items: center;
+}
+
+
+.name-cardBasket {
+    display: flex;
+    align-items: center;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+}
+
+.basket-img {
+    display: flex;
+    max-height: 100%;
+}
+.price-basket {
+    display: flex;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+}
+.quantity-basket {
+    display: flex;
+
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+}
+.btn_remove_basket_items {
+    display: flex;
+    height: 50%;
+    border-radius: 20%;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+    justify-items: center;
+    margin: 0px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.btn_remove_basket_items:hover {
+    background-color: #9f0404;
+    color: white;
+}
+
+#price-container p {
+    margin-left: 5%;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    font-size: 20px ;
+
+
+}
+
+.main-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+#basket-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    margin-top: 5%;
+    overflow-y: auto;
+    flex: 1
+
+}
+
+#price-container {
+    display: flex;
+
+    bottom: 0;
+    justify-content: flex-start;
+    left: 10%;
+    width: 80%;
+}
+
+#basket-info-name {
+    margin-top: 3%;
+    display: flex;
+    margin-left: 5%;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-weight: bolder;
+    font-size: 20px ;
+}
+
+.razdel {
+    background-color: #000000;
+    height: 30px;
+    width: 2px;
+
+
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+}
+
+.btn-cart-left, .btn-cart-right {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.btn-wrapper1, .btn-wrapper2, .btn-wrapper3, .btn-wrapper4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-label {
+    font-family: "Syne", "Lucida Sans Unicode";
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 14px ;
+}
+.btn-delivery, .btn-pickup, .btn-paycard, .btn-cashpayment {
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.delivery-group.active, .payment-group.active {
+    background-color: #375FED;
+}
+
+
+.placeholder {
+    resize: none;
+}
+
+#input-label{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#input-container{
+    margin-left: 5%;
+    max-width: 570px;
+}
+.inp-lb1 {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 24px ;
+    margin-bottom: 0px
+}
+
+.inp-lb2 {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 14px ;
+    color: #969696;
+    margin-top: 0px;
+
+}
+
+#input-name input {
+    border: none;
+    width: 270px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.input-street-address {
+    margin-top: 3%;
+
+
+}
+.input-street-address input {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+#input-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+ }
+.input-postcode {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 4%;
+    margin-top: 3%;
+}
+.input-postcode input {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.comments textarea {
+    margin-top: 3%;
+    border: none;
+    height: 50px;
+    width: 100%;
+    height: 140px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.number {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.number input {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.number button {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #375FED;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+

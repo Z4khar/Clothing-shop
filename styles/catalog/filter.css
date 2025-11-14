@@ -1,0 +1,90 @@
+.sizes-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px
+}
+
+.sizes-btn {
+    padding: 2px;
+    background-color: #DDDEE3;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.disabled-btn-size {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.text-filter {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.prod_cont, .category-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.label_product {
+    margin: 0px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 16px;
+}
+
+.btn_product, .btn_category {
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.label_category {
+    margin: 0px;
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 16px;
+}
+
+
+.btn_product.active, .btn_category.active, .sizes-btn.active {
+    background-color: #375FED;
+    color: white;
+}
+
+.range {
+    accent-color: #375FED;
+
+}
+.price-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.label_price {
+    font-family: "Syne", "Lucida Sans Unicode";
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 10px
+}
+

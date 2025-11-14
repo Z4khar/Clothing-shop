@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/home/header.css">
+    <link rel="stylesheet" href="styles/home/footer.css">
+    <link rel="stylesheet" href="styles/basket/basket.css">
+    <link rel="stylesheet" href="styles/basket/modal.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+    <div class = "header-container">
+        <div class="logo">
+            <p>YDVS</p>
+            <p>PRT</p>
+        </div>
+
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="user">
+            <input class = "header_search" type="text" placeholder="  Search">
+            <button class = "btn-like no-circle" aria-label="Like"></button>
+            <button class = "btn-basket" aria-label="Basket"></button>
+
+        </div>
+    </div>
+
+
+
+
+</header>
+<main>
+    <div class="main-container-left">
+        <div id="basket-container"></div>
+        <div id="price-container">
+            <p>Total Prices: </p>
+        </div>
+    </div>
+
+    <div class="main-container-right">
+        <div id="basket-info-name">
+            <p>Ordering data</p>
+        </div>
+
+        <div id="btn-container">
+                <div class="btn-wrapper1">
+                    <button class="btn-delivery delivery-group"></button>
+                    <p class="btn-label">Delivery</p>
+                </div>
+                <div class="btn-wrapper2">
+                    <button class="btn-pickup delivery-group"></button>
+                    <p class="btn-label">Pickup</p>
+                </div>
+                <div class="razdel"></div>
+                <div class="btn-wrapper3">
+                    <button class="btn-paycard payment-group"></button>
+                    <p class="btn-label">PayCard</p>
+                </div>
+                <div class="btn-wrapper4">
+                    <button class="btn-cashpayment payment-group"></button>
+                    <p class="btn-label">Cash payment</p>
+                </div>
+
+        </div>
+
+        <div id ="input-label">
+            <p class="inp-lb1">Fill in the fields</p>
+            <p class="inp-lb2">Please fill in all fields to confirm your order</p>
+        </div>
+        <div id ="input-container">
+            <div id ="input-name">
+                <input type="text" placeholder="   First name" class="inp-name">
+                <input type="text" placeholder="   Last name" class="inp-name">
+            </div>
+            <div class="input-street-address">
+                <input type="text" placeholder="   Street name and house number">
+            </div>
+            <div class ="input-postcode">
+                <input type="text" placeholder="   Postcode">
+                <input type="text" placeholder="   City">
+                <input type="text" placeholder="  Region">
+            </div>
+            <div class = "comments">
+                <textarea placeholder="  Comments" class="placeholder"></textarea>
+            </div>
+            <div class="number">
+                <input type="tel" placeholder="  +7(---)--- -- --">
+                <input type="email" placeholder="  Email">
+                <button class="btn-order">Confirm order</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal window -->
+    <div class="modal-overlay hidden">
+        <div id="cart-back"></div>
+        <div id="cart-head">
+            <div class="icon-close">
+                <img src="./media/images/order/modal/close.png" class="close-img"/>
+            </div>
+            <div class="modal-content">
+                <img src="./media/images/order/modal/img.png" class="confirm-img"/>
+                <div class="label_modal">
+                    <p>Thank you for your order. </p>
+                    <p>We will contact you soon.</p>
+                </div>
+                <img src="./media/images/order/modal/emodzi_1.png" class="emodzi-img"/>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</main>
+
+<footer>
+    <div class="f1">
+        <div class="logo-f1">
+            <p>YDVS</p>
+            <p>PRT</p>
+        </div>
+        <div class="social-network">
+            <img src="./media/images/footer/insta.svg">
+            <img src="./media/images/footer/face.png">
+            <img src="./media/images/footer/twit.png">
+        </div>
+    </div>
+    <div class = "f2">
+        <div class="linkf">
+            <a href="basket.html">Box</a>
+            <a href="catalog.html">Run</a>
+            <a href="contact.html">Fitness</a>
+            <a href="sales.html">Sales</a>
+        </div>
+        <div class="newslet">
+            <p>NEWSLETTER</p>
+        </div>
+    </div>
+    <div class="f3">
+        <div class="l_info">
+            <div class="f31">
+                <p>T-shirts</p>
+                <p>Customers</p>
+                <p>Shoes</p>
+                <p>Other</p>
+            </div>
+            <div >
+                <p>T-shirts</p>
+                <p>Customers</p>
+                <p>Shoes</p>
+                <p>Other</p>
+            </div>
+            <div >
+                <p>T-shirts</p>
+                <p>Customers</p>
+                <p>Shoes</p>
+                <p>Other</p>
+            </div>
+            <div >
+                <p>T-shirts</p>
+                <p>Customers</p>
+                <p>Shoes</p>
+                <p>Other</p>
+            </div>
+        </div>
+        <div class="r_info">
+            <div>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <input class="input_f" placeholder="Enter your email:">
+            </div>
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+<script src="js/home/home.js"></script>
+<script src="js/basket/basket.js"></script>
+<script src="js/basket/modal.js"></script>
+
+</body>
+</html>
